@@ -1,0 +1,83 @@
+/******Stylisation du header******/
+
+#euroheader{
+    background-attachment: white;
+    list-style: none;
+}
+#euroheader ol{
+    list-style: none;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.logo img{
+    height: 95%;
+    width: 30%;
+}
+#title h1{
+    color: #021c47;
+}
+#moto h4{
+    color: #aacaf9;
+}
+
+#header_list ul{
+    list-style: none;
+}
+
+
+/**********Stylisation de la nav bar*********/
+
+#nav_bar ul{
+    height: 1cm;
+    margin: 0px;
+    background-color: #091c47;
+   
+    list-style: none;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+}
+#nav_bar ul li{
+    margin : 10px;
+    padding: 2px;
+}
+#nav_bar ul li a{
+    color: #f7f8f1;
+}
+/********** Stylisation du contenu des nouneveautés ************/
+
+#news_contener{
+    height: 10cm;
+    background-color: #dfdfdf;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+td , th{
+    border: 1px solid black;
+}
+td img{
+    width: 50px;
+    height: 50px;
+}
+
+/******* Stylisation de footer ****************/
+
+#page_footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: #091c47 ;
+    border: 1px solid #091c47;
+
+}
+#page_footer p{
+    color:#d59c59;
+}
