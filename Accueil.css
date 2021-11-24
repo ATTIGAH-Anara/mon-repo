@@ -1,3 +1,7 @@
+body{
+    min-width: 360px;
+}
+
 /******Stylisation du header******/
 
 #euroheader{
